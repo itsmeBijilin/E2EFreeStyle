@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Master Suite" thread-count="3" verbose="2" >
+
+	<listeners>
+		<listener class-name="utilities.ExtendReports"></listener>
+	</listeners>
+	<test name="Allegiant End to End">
+		<classes>
+			<class name="testSuite.AllegiantSuite"></class>
+		</classes>
+	</test>
+</suite>

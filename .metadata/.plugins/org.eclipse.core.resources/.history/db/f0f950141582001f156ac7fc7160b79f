@@ -1,0 +1,61 @@
+11:21:04.003 [main] INFO  testSuite.AllegiantSuite - Session Terminated
+11:21:04.203 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@58dad04a: 120 ms
+11:21:04.204 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@73e776b7: 0 ms
+11:21:04.216 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@44592c39: 12 ms
+11:21:04.231 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2bb62414: 13 ms
+11:21:04.241 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@1f4f0fcc: 10 ms
+11:21:04.242 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@46c10083: 0 ms
+11:22:36.756 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [D:\AllegiantFreeStyle\AllegiantAutomation\Master.xml] otherwise TestNG may fail or not work as expected.
+11:22:36.983 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:22:36.986 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+11:22:36.987 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:22:36.987 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:22:36.988 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:22:36.988 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:22:36.988 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:22:36.988 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:22:36.992 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+11:22:37.007 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 14 ms.
+11:22:37.009 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:22:37.009 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:22:37.010 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:22:37.010 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:22:37.011 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:22:37.011 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:22:37.013 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:22:37.013 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:22:37.013 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:22:37.013 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:22:37.015 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:22:37.015 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:22:37.015 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:22:37.015 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:22:37.016 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:22:37.017 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:22:37.018 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:22:37.018 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:22:37.018 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:22:37.019 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:22:37.033 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AllegiantFreeStyle\AllegiantAutomation\Master.xml
+
+11:22:37.051 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+11:22:51.962 [main] INFO  testSuite.AllegiantSuite - ************ Execution Started ***************
+11:22:51.962 [main] INFO  testSuite.AllegiantSuite - Execution Started
+11:22:52.304 [main] INFO  testSuite.AllegiantSuite - Cookie Pop up is clicked
+11:22:52.518 [main] INFO  testSuite.AllegiantSuite - popUpcloseIcon is clicked
+11:22:52.518 [main] INFO  testSuite.AllegiantSuite - ************ Home Page***************
+11:22:52.518 [main] INFO  testSuite.AllegiantSuite - Home Page
+11:22:52.751 [main] INFO  testSuite.AllegiantSuite - One way is clicked
+11:22:52.886 [main] INFO  testSuite.AllegiantSuite - flightOriginSearch is clicked
+11:22:56.244 [main] INFO  testSuite.AllegiantSuite - destination Origin Search is clicked
+11:23:00.937 [main] INFO  testSuite.AllegiantSuite - departureDateField is clicked
+11:23:04.963 [main] INFO  testSuite.AllegiantSuite - Travellers Field is clicked
+11:23:10.474 [main] INFO  testSuite.AllegiantSuite - Search Button is clicked
+11:23:11.119 [main] INFO  testSuite.AllegiantSuite - Session Terminated
+11:23:11.325 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@32a72c4: 139 ms
+11:23:11.326 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@15986dd5: 1 ms
+11:23:11.334 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@113ee1ce: 8 ms
+11:23:11.352 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2e590b: 18 ms
+11:23:11.363 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@19dc0d32: 10 ms
+11:23:11.363 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@70b2fa10: 0 ms

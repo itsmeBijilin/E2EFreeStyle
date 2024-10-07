@@ -1,0 +1,160 @@
+[WARN ] 2024-10-07 11:10:24.086 [main] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [D:\AllegiantFreeStyle\AllegiantAutomation\Master.xml] otherwise TestNG may fail or not work as expected.
+[INFO ] 2024-10-07 11:10:24.328 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2024-10-07 11:10:24.331 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO ] 2024-10-07 11:10:24.332 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.333 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.333 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.334 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.334 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.335 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.339 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[INFO ] 2024-10-07 11:10:24.349 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+[INFO ] 2024-10-07 11:10:24.351 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.351 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.352 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.352 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.352 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.352 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.360 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.360 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.361 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.361 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.364 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.364 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.364 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.364 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.366 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.367 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.369 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.369 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.369 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.369 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:10:24.378 [main] Utils - [TestNG] Running:
+  D:\AllegiantFreeStyle\AllegiantAutomation\Master.xml
+
+[INFO ] 2024-10-07 11:10:24.583 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+[INFO ] 2024-10-07 11:10:46.577 [main] AllegiantSuite - ************ Execution Started ***************
+[INFO ] 2024-10-07 11:10:46.928 [main] AllegiantSuite - Cookie Pop up is clicked
+[INFO ] 2024-10-07 11:10:47.283 [main] AllegiantSuite - popUpcloseIcon is clicked
+[INFO ] 2024-10-07 11:10:47.283 [main] AllegiantSuite - ************ Home Page***************
+[INFO ] 2024-10-07 11:10:47.602 [main] AllegiantSuite - One way is clicked
+[INFO ] 2024-10-07 11:10:47.746 [main] AllegiantSuite - flightOriginSearch is clicked
+[INFO ] 2024-10-07 11:10:52.074 [main] AllegiantSuite - destination Origin Search is clicked
+[INFO ] 2024-10-07 11:10:56.827 [main] AllegiantSuite - departureDateField is clicked
+[INFO ] 2024-10-07 11:11:03.785 [main] AllegiantSuite - Travellers Field is clicked
+[INFO ] 2024-10-07 11:11:09.605 [main] AllegiantSuite - Search Button is clicked
+[INFO ] 2024-10-07 11:11:10.151 [main] AllegiantSuite - Session Terminated
+[INFO ] 2024-10-07 11:11:10.938 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@7c2b6acb: 115 ms
+[INFO ] 2024-10-07 11:11:10.938 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@28367da7: 0 ms
+[INFO ] 2024-10-07 11:11:10.953 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@3e151e1f: 15 ms
+[INFO ] 2024-10-07 11:11:10.986 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4b4927e5: 33 ms
+[INFO ] 2024-10-07 11:11:11.001 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@35e2b89f: 15 ms
+[INFO ] 2024-10-07 11:11:11.001 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7ad889be: 0 ms
+[WARN ] 2024-10-07 11:15:09.195 [main] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [D:\AllegiantFreeStyle\AllegiantAutomation\Master.xml] otherwise TestNG may fail or not work as expected.
+[INFO ] 2024-10-07 11:15:09.538 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.546 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+[INFO ] 2024-10-07 11:15:09.549 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.549 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.550 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.550 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.551 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.551 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.557 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+[INFO ] 2024-10-07 11:15:09.575 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 18 ms.
+[INFO ] 2024-10-07 11:15:09.576 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.576 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.577 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.577 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.578 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.578 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.580 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.580 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.581 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.581 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.589 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.590 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.590 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.590 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.592 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.592 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.594 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.595 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.595 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.595 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:15:09.606 [main] Utils - [TestNG] Running:
+  D:\AllegiantFreeStyle\AllegiantAutomation\Master.xml
+
+[INFO ] 2024-10-07 11:15:09.803 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+[INFO ] 2024-10-07 11:15:23.207 [main] AllegiantSuite - ************ Execution Started ***************
+[INFO ] 2024-10-07 11:15:23.570 [main] AllegiantSuite - Cookie Pop up is clicked
+[INFO ] 2024-10-07 11:15:23.957 [main] AllegiantSuite - popUpcloseIcon is clicked
+[INFO ] 2024-10-07 11:15:23.957 [main] AllegiantSuite - ************ Home Page***************
+[INFO ] 2024-10-07 11:15:24.375 [main] AllegiantSuite - One way is clicked
+[INFO ] 2024-10-07 11:15:24.489 [main] AllegiantSuite - flightOriginSearch is clicked
+[INFO ] 2024-10-07 11:15:28.132 [main] AllegiantSuite - (LAS) is passed in origin field
+[INFO ] 2024-10-07 11:15:28.341 [main] AllegiantSuite - destination Origin Search is clicked
+[INFO ] 2024-10-07 11:15:30.726 [main] AllegiantSuite - (BLI) is passed in destination field
+[INFO ] 2024-10-07 11:15:33.032 [main] AllegiantSuite - departureDateField is clicked
+[INFO ] 2024-10-07 11:15:40.042 [main] AllegiantSuite - Travellers Field is clicked
+[INFO ] 2024-10-07 11:15:44.260 [main] AllegiantSuite - Search Button is clicked
+[INFO ] 2024-10-07 11:15:44.872 [main] AllegiantSuite - Session Terminated
+[INFO ] 2024-10-07 11:15:45.695 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@28367da7: 142 ms
+[INFO ] 2024-10-07 11:15:45.695 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@1a0f349: 0 ms
+[INFO ] 2024-10-07 11:15:45.715 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@d70e9a: 20 ms
+[INFO ] 2024-10-07 11:15:45.726 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4c5da4f9: 11 ms
+[INFO ] 2024-10-07 11:15:45.743 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7ad889be: 17 ms
+[INFO ] 2024-10-07 11:15:45.743 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4c063cb9: 0 ms
+[WARN ] 2024-10-07 11:18:46.038 [main] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [D:\AllegiantFreeStyle\AllegiantAutomation\Master.xml] otherwise TestNG may fail or not work as expected.
+[INFO ] 2024-10-07 11:18:46.281 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2024-10-07 11:18:46.284 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2024-10-07 11:18:46.286 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.286 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.287 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.287 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.288 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.288 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.291 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2024-10-07 11:18:46.302 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
+[INFO ] 2024-10-07 11:18:46.303 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.304 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2024-10-07 11:18:46.304 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.304 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.305 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.305 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.307 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.307 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.314 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.314 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.318 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.319 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.319 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.319 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.321 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.321 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.323 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.324 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.324 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.324 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-10-07 11:18:46.332 [main] Utils - [TestNG] Running:
+  D:\AllegiantFreeStyle\AllegiantAutomation\Master.xml
+
+[INFO ] 2024-10-07 11:18:46.514 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+[INFO ] 2024-10-07 11:19:02.441 [main] AllegiantSuite - ************ Execution Started ***************
+[INFO ] 2024-10-07 11:19:02.777 [main] AllegiantSuite - Cookie Pop up is clicked
+[INFO ] 2024-10-07 11:19:03.111 [main] AllegiantSuite - popUpcloseIcon is clicked
+[INFO ] 2024-10-07 11:19:03.111 [main] AllegiantSuite - ************ Home Page***************
+[INFO ] 2024-10-07 11:19:03.391 [main] AllegiantSuite - One way is clicked
+[INFO ] 2024-10-07 11:19:03.504 [main] AllegiantSuite - flightOriginSearch is clicked
+[INFO ] 2024-10-07 11:19:07.241 [main] AllegiantSuite - (LAS) is passed in origin field
+[INFO ] 2024-10-07 11:19:07.338 [main] AllegiantSuite - destination Origin Search is clicked
+[INFO ] 2024-10-07 11:19:09.645 [main] AllegiantSuite - (BLI) is passed in destination field
+[INFO ] 2024-10-07 11:19:12.053 [main] AllegiantSuite - departureDateField is clicked
+[INFO ] 2024-10-07 11:19:17.816 [main] AllegiantSuite - Travellers Field is clicked
+[INFO ] 2024-10-07 11:19:23.776 [main] AllegiantSuite - Search Button is clicked
+[INFO ] 2024-10-07 11:19:24.339 [main] AllegiantSuite - Session Terminated
+[INFO ] 2024-10-07 11:19:25.080 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@7c2b6acb: 110 ms
+[INFO ] 2024-10-07 11:19:25.080 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@28367da7: 0 ms
+[INFO ] 2024-10-07 11:19:25.100 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@3e151e1f: 20 ms
+[INFO ] 2024-10-07 11:19:25.112 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4b4927e5: 12 ms
+[INFO ] 2024-10-07 11:19:25.128 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@35e2b89f: 16 ms
+[INFO ] 2024-10-07 11:19:25.128 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7ad889be: 0 ms

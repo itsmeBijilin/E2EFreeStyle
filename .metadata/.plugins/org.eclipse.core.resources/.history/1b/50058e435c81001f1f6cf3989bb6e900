@@ -1,0 +1,56 @@
+13:11:31.304 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [D:\AllegiantFreeStyle\AllegiantAutomation\Master.xml] otherwise TestNG may fail or not work as expected.
+13:11:31.609 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AllegiantFreeStyle\AllegiantAutomation\Master.xml
+
+13:11:47.368 [main] INFO  testSuite.AllegiantSuite - ************ Execution Started ***************
+13:11:47.712 [main] INFO  testSuite.AllegiantSuite - Cookie Pop up is clicked
+13:11:47.974 [main] INFO  testSuite.AllegiantSuite - popUpcloseIcon is clicked
+13:11:47.975 [main] INFO  testSuite.AllegiantSuite - ************ Home Page***************
+13:11:48.247 [main] INFO  testSuite.AllegiantSuite - One way is clicked
+13:11:48.404 [main] INFO  testSuite.AllegiantSuite - flightOriginSearch is clicked
+13:11:52.046 [main] INFO  testSuite.AllegiantSuite - destination Origin Search is clicked
+13:11:56.582 [main] INFO  testSuite.AllegiantSuite - departureDateField is clicked
+13:12:00.807 [main] INFO  testSuite.AllegiantSuite - Travellers Field is clicked
+13:12:06.173 [main] INFO  testSuite.AllegiantSuite - Search Button is clicked
+13:12:06.197 [main] INFO  testSuite.AllegiantSuite - ************ Bundles Page ***************
+13:12:09.274 [main] INFO  testSuite.AllegiantSuite - Validated, In Bundles page
+13:12:26.237 [main] INFO  testSuite.AllegiantSuite - ************ Travellers page ***************
+13:12:31.898 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [D:\AllegiantFreeStyle\AllegiantAutomation\Master.xml] otherwise TestNG may fail or not work as expected.
+13:12:32.134 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AllegiantFreeStyle\AllegiantAutomation\Master.xml
+
+13:12:51.811 [main] INFO  testSuite.AllegiantSuite - ************ Execution Started ***************
+13:12:52.158 [main] INFO  testSuite.AllegiantSuite - Cookie Pop up is clicked
+13:12:52.401 [main] INFO  testSuite.AllegiantSuite - popUpcloseIcon is clicked
+13:12:52.401 [main] INFO  testSuite.AllegiantSuite - ************ Home Page***************
+13:12:52.687 [main] INFO  testSuite.AllegiantSuite - One way is clicked
+13:12:52.821 [main] INFO  testSuite.AllegiantSuite - flightOriginSearch is clicked
+13:12:56.417 [main] INFO  testSuite.AllegiantSuite - destination Origin Search is clicked
+13:13:00.962 [main] INFO  testSuite.AllegiantSuite - departureDateField is clicked
+13:13:05.008 [main] INFO  testSuite.AllegiantSuite - Travellers Field is clicked
+13:13:19.246 [main] INFO  testSuite.AllegiantSuite - Search Button is clicked
+13:13:19.271 [main] INFO  testSuite.AllegiantSuite - ************ Bundles Page ***************
+13:13:22.284 [main] INFO  testSuite.AllegiantSuite - Validated, In Bundles page
+13:13:38.907 [main] INFO  testSuite.AllegiantSuite - Bundle Continue Button is clicked
+13:13:38.911 [main] INFO  testSuite.AllegiantSuite - ************ Travellers page ***************
+13:13:41.055 [main] INFO  testSuite.AllegiantSuite - Validated, In Traveler page
+13:13:44.973 [main] INFO  testSuite.AllegiantSuite - First Name Text Box is clicked
+13:13:45.096 [main] INFO  testSuite.AllegiantSuite - QAis passed into the field
+13:13:46.406 [main] INFO  testSuite.AllegiantSuite - Last Name Text Box is clicked
+13:13:46.516 [main] INFO  testSuite.AllegiantSuite - Automationis passed into the field
+13:13:46.724 [main] INFO  testSuite.AllegiantSuite - male gender Radio Box is clicked
+13:13:46.947 [main] INFO  testSuite.AllegiantSuite - Date of Month Dropdown is clicked
+13:13:49.391 [main] INFO  testSuite.AllegiantSuite - Day Drop Down is clicked
+13:13:52.166 [main] INFO  testSuite.AllegiantSuite - 1995is passed into the field
+13:13:52.391 [main] INFO  testSuite.AllegiantSuite - 987-654-32123456is passed into the field
+13:13:52.568 [main] INFO  testSuite.AllegiantSuite - accept@fraudtest.comis passed into the field
+13:13:52.928 [main] INFO  testSuite.AllegiantSuite - Travellers Continue Button is clicked
+13:13:52.935 [main] INFO  testSuite.AllegiantSuite - ************ Seats Page***************
+13:14:09.375 [main] INFO  testSuite.AllegiantSuite - Validated, In Seats page
+13:14:16.102 [main] INFO  testSuite.AllegiantSuite - Seats Continue Button is clicked
+13:14:16.109 [main] INFO  testSuite.AllegiantSuite - ************ Bags Page ***************
+13:14:23.831 [main] INFO  testSuite.AllegiantSuite - Validated, In Bags page
+13:14:25.112 [main] INFO  testSuite.AllegiantSuite - Add Check Box Icon is clicked
+13:14:25.376 [main] INFO  testSuite.AllegiantSuite - Bags Page Continue Button is clicked
+13:14:25.384 [main] INFO  testSuite.AllegiantSuite - ************ Cars Page  ***************
+13:14:47.826 [main] INFO  testSuite.AllegiantSuite - Validated, In Cars page

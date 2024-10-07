@@ -1,0 +1,50 @@
+18:54:12.943 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+18:54:12.954 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+18:54:12.956 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:54:12.956 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:54:12.957 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:54:12.957 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:54:12.958 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:54:12.958 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:54:12.966 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+18:54:12.978 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+18:54:12.979 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:54:12.979 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:54:12.980 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:54:12.980 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:54:12.980 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:54:12.980 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:54:12.982 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:54:12.982 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:54:12.983 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:54:12.983 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:54:12.986 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:54:12.986 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:54:12.986 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:54:12.986 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:54:12.987 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:54:12.995 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+18:54:12.997 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:54:12.997 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:54:12.997 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:54:12.997 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:54:13.004 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AllegiantFreeStyle\AllegiantAutomation\Master.xml
+
+18:54:13.236 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+18:54:29.707 [main] INFO  testSuite.AllegiantSuite - ************ Execution Started ***************
+18:54:30.031 [main] INFO  testSuite.AllegiantSuite - Cookie Pop up is clicked
+18:54:30.290 [main] INFO  testSuite.AllegiantSuite - popUpcloseIcon is clicked
+18:54:30.290 [main] INFO  testSuite.AllegiantSuite - ************ Home Page***************
+18:54:30.570 [main] INFO  testSuite.AllegiantSuite - One way is clicked
+18:54:30.702 [main] INFO  testSuite.AllegiantSuite - flightOriginSearch is clicked
+18:54:34.184 [main] INFO  testSuite.AllegiantSuite - destination Origin Search is clicked
+18:54:38.711 [main] INFO  testSuite.AllegiantSuite - departureDateField is clicked
+18:54:43.553 [main] INFO  testSuite.AllegiantSuite - Travellers Field is clicked
+18:54:48.824 [main] INFO  testSuite.AllegiantSuite - Search Button is clicked
+18:54:48.851 [main] INFO  testSuite.AllegiantSuite - ************ Flights Page ***************
+18:54:52.310 [main] INFO  testSuite.AllegiantSuite - flights Continue Button is clicked
+18:54:52.888 [main] INFO  testSuite.AllegiantSuite - Session Terminated
+18:54:54.256 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@40f1aa95: 153 ms
+18:54:54.257 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@1c72189f: 1 ms
+18:54:54.271 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@27afbf14: 14 ms

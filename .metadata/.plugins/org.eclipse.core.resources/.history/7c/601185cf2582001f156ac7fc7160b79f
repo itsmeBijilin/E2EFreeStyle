@@ -1,0 +1,24 @@
+package logger;
+
+import java.awt.event.KeyEvent;
+import java.time.Duration;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.apache.log4j.Logger;
+
+
+
+public class TestLogger {
+
+		private static final Logger logger = 
+
+	    public static void main(String[] args) {
+	        logger.debug("This is a debug message");
+	        logger.info("This is an info message");
+	        logger.error("This is an error message");
+	    }
+}

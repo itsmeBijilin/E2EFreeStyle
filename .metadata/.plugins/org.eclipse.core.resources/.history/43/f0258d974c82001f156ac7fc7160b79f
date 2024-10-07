@@ -1,0 +1,40 @@
+package utilities;
+
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+public class ExtendReports implements ITestListener{
+	public ExtentSparkReporter sparkReporter;
+	public ExtentReports extent;
+	public ExtentTest test;
+	
+public void onStart(ITestContext context) {
+	System.out.println("On start");
+}
+/* Only once bfore the execution start */
+public void onTestStart(ITestResult result) {
+	System.out.println("On test start started");
+}
+/* Before test method onTest start will be executed */
+
+public void onTestSuccess(ITestResult result) {
+	System.out.println("On test success ");
+}
+
+public void onTestFailure(ITestResult result) {
+	System.out.println("On test failed");
+}
+
+public void onTestSkipped(ITestResult result) {
+	System.out.println("On test skipped ");
+}
+
+public void onFinish(ITestContext context) {
+	System.out.println("Test execution completed");
+}
+}
