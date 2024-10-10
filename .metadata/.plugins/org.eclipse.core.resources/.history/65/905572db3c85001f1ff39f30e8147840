@@ -1,0 +1,14 @@
+allegiantUrl=https://www.allegiantair.com/
+browser=chrome
+
+origin=(LAS)
+destination=(BLI)
+
+# Traveller details #
+firstName=QA
+lastName=Automation
+month=june
+date=15
+year=1995
+mobileNumber=987-654-32123456
+email=accept@fraudtest.com

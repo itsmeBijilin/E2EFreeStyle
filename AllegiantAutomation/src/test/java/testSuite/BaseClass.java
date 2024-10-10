@@ -15,6 +15,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import com.aventstack.extentreports.Status;
+
+import utilities.ExtendReports;
+
 public class BaseClass {
 	public static Logger logger; // log4j
 	public static WebDriver driver;
@@ -26,6 +30,18 @@ public class BaseClass {
 		prop.load(FIS);
 		url = prop.getProperty(input);
 		return url;
+	}
+	
+	public void reportsLogs(String input,String log) throws Exception {
+		ExtendReports.test=ExtendReports.extent.createTest(input);
+		Status status=ExtendReports.test.getStatus();
+		String stat=status.toString();
+		if(stat.equals("Pass")) {
+			ExtendReports.test.log(Status.PASS, log);
+		}
+		else if(stat.equals("Fail")) {
+			ExtendReports.test.log(Status.FAIL, log);
+		}
 	}
 	
 	@BeforeClass

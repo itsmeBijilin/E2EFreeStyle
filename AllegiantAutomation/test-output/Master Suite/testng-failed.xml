@@ -2,13 +2,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="3" name="Failed suite [Master Suite]" verbose="2">
   <listeners>
-    <listener class-name="utilities.ExtendReportManager"/>
+    <listener class-name="utilities.ExtendReports"/>
   </listeners>
   <test thread-count="3" name="Allegiant End to End(failed)" verbose="2">
     <classes>
       <class name="testSuite.AllegiantSuite">
         <methods>
-          <include name="TC_01_HomePage"/>
+          <include name="TC_02_RoundTrip"/>
           <include name="afterClass"/>
           <include name="beforeClass"/>
         </methods>

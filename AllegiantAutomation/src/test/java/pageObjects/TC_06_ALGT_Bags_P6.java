@@ -16,6 +16,9 @@ public class TC_06_ALGT_Bags_P6 extends BasePage {
 
 	@FindBy(xpath = "//*[@data-hook='ancillaries-page_continue']")
 	private WebElement bagsPageContinueBuuton;
+	
+	@FindBy(xpath = "//*[@data-hook='ancillaries-page-traveler_0_carry-on_increment']")
+	private WebElement carryOnIncrementBtn;
 
 	public TC_06_ALGT_Bags_P6(WebDriver driver) {
 		super(driver);
@@ -35,5 +38,10 @@ public class TC_06_ALGT_Bags_P6 extends BasePage {
 	public void clickBagPageContinue() {
 		new CommonActions().explicitWait(bagsPageContinueBuuton, "Bags Page Continue Buuton");
 		new CommonActions().doClick(bagsPageContinueBuuton, "Bags Page Continue Button", bagsPageContinueBuuton);
+	}
+	
+	public void clickIncrementCarryOnBag() {
+		new CommonActions().explicitWait(carryOnIncrementBtn, "Carry On Increment Button");
+		new CommonActions().doClick(carryOnIncrementBtn, "Carry On Increment Button", carryOnIncrementBtn);
 	}
 }

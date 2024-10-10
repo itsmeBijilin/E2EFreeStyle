@@ -33,6 +33,12 @@ public class TC_05_ALGT_SeatsPage_P5 extends BasePage {
 
 	@FindBy(xpath = "(//*[@class='Text-sc-1o5ubbx-0 gRLrXA'])[1]")
 	private WebElement bundleTxt;
+	
+	@FindBy(xpath = "//*[text()='Choose Returning Seats']")
+	private WebElement chooseReturningSeats;
+	
+	@FindBy(xpath = "//*[@data-hook='seats-page_continue-popup']")
+	private WebElement returnSeatContinue;
 
 	public TC_05_ALGT_SeatsPage_P5(WebDriver driver) {
 		super(driver);
@@ -58,11 +64,12 @@ public class TC_05_ALGT_SeatsPage_P5 extends BasePage {
 
 		if (bundleTxt.getText().contains("Allegiant Bonus bundle")) {
 			Thread.sleep(2000);
+			System.out.println("*********INside Bonus Bundle*********");
 			//availlegRoomSeats.get(index1).click();
 			economySeats.get(index1).click();
 			Thread.sleep(2000);
 			new CommonActions().explicitWait(bonusContinue, "bonusContinue");
-			new CommonActions().doClick(bonusContinue, "Seats Continue Button", bonusContinue);
+			new CommonActions().doClick(bonusContinue, "Seats Continue Button", bonusContinue);		
 		} else if (bundleTxt.getText().contains("Allegiant Total bundle")) {
 			Thread.sleep(2000);
 			//availlegRoomSeats.get(index1).click();
@@ -80,7 +87,6 @@ public class TC_05_ALGT_SeatsPage_P5 extends BasePage {
 				new CommonActions().explicitWait(seatsContinueBtn, "Seats Continue Button");
 				new CommonActions().doClick(seatsContinueBtn, "Seats Continue Button", seatsContinueBtn);
 			}
-
 		}
 	}
 
@@ -88,5 +94,49 @@ public class TC_05_ALGT_SeatsPage_P5 extends BasePage {
 		new CommonActions().explicitWait(seatsContinueBtn, "Seats Continue Button");
 		// Thread.sleep(2000);
 		new CommonActions().doClick(seatsContinueBtn, "Seats Continue Button", seatsContinueBtn);
+	}
+	
+	public void seatSelectionReturn() throws Exception {
+		
+		new CommonActions().explicitWait(chooseReturningSeats, "Choose Returning Seats");
+		
+		int seatCount = availEconomySeats.size() + availlegRoomSeats.size();
+		System.out.println(seatCount);
+
+//		int index = new CommonActions().randomRangeRandom(0, availEconomySeats.size());
+//		int index1 = new CommonActions().getRandomNumbers(1, availlegRoomSeats.size());
+		
+		int index = new CommonActions().randomRangeRandom(0, economySeats.size());
+		int index1 = new CommonActions().getRandomNumbers(1, economySeats.size());
+
+		Thread.sleep(2000);
+
+		if (bundleTxt.getText().contains("Allegiant Bonus bundle")) {
+			Thread.sleep(2000);
+			//availlegRoomSeats.get(index1).click();
+			economySeats.get(index1).click();
+			Thread.sleep(2000);
+//			new CommonActions().explicitWait(bonusContinue, "bonusContinue");
+//			new CommonActions().doClick(bonusContinue, "Seats Continue Button", bonusContinue);
+			new CommonActions().explicitWait(returnSeatContinue, "Return Seat Continue Button");
+			new CommonActions().doClick(returnSeatContinue, "Return Seat Continue", returnSeatContinue);
+		} else if (bundleTxt.getText().contains("Allegiant Total bundle")) {
+			Thread.sleep(2000);
+			//availlegRoomSeats.get(index1).click();
+			economySeats.get(index1).click();
+			new CommonActions().explicitWait(seatsContinueBtn, "Seats Continue Button");
+			Thread.sleep(2000);
+			new CommonActions().doClick(seatsContinueBtn, "Seats Continue Button", seatsContinueBtn);
+		} else if (!bundleTxt.getText().contains("Allegiant")) {
+			if (availEconomySeats.size() != 0) {
+				availEconomySeats.get(index).click();
+				new CommonActions().explicitWait(seatsContinueBtn, "Seats Continue Button");
+				new CommonActions().doClick(seatsContinueBtn, "Seats Continue Button", seatsContinueBtn);
+			} else {
+				availlegRoomSeats.get(index1).click();
+				new CommonActions().explicitWait(seatsContinueBtn, "Seats Continue Button");
+				new CommonActions().doClick(seatsContinueBtn, "Seats Continue Button", seatsContinueBtn);
+			}
+		}
 	}
 }
