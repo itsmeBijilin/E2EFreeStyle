@@ -37,8 +37,16 @@ public class TC_08_ALGT_Cars_P8 extends BasePage {
 	public void selectCars() throws Exception {
 		Thread.sleep(2000);
 		int len = availableCars.size();
-		availableCars.get(0).click();
-		BaseClass.logger.info("Car is selected");
+		if(len!=0) {
+			availableCars.get(0).click();
+			BaseClass.logger.info("Car is selected");
+			
+			new CommonActions().explicitWait(carContinueBtn, "Car Continue Button");
+			new CommonActions().doClick(carContinueBtn, "car Continue Button", carContinueBtn);
+		}
+		else
+			return;
+		
 	}
 
 	public void clickCarContinueButton() {

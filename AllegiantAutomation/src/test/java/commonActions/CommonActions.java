@@ -172,7 +172,7 @@ public class CommonActions extends BaseClass{
 		}
 
 		public void explicitWait(WebElement element,String input) {
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(5000));
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(50000));
 			//wait.until(ExpectedConditions.visibilityOf(element));
 			wait.until(ExpectedConditions.elementToBeClickable(element));
 			if (element.isDisplayed()) {

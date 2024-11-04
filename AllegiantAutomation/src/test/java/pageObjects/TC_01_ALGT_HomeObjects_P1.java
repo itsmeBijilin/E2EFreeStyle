@@ -49,6 +49,12 @@ public class TC_01_ALGT_HomeObjects_P1 extends BasePage {
 
 	@FindBy(xpath = "//*[@class='FlightSearchForm__GAClickEventTracker-lmu5bc-1 cmHRyO']//button[@data-hook='flight-search-submit']")
 	private WebElement searchButton;
+	
+	@FindBy(xpath = "//*[@data-hook='overlay-merchandise_ice-pop_close']//img[@alt='closeIcon']")
+	private WebElement secondPopUp;
+	
+	@FindBy(xpath = "//*[@alt='Still dreaming of your next getaway? Sunseeker Resort Charlotte Harbor, southwest Florida']")
+	private WebElement popUpOuter;
 
 	public TC_01_ALGT_HomeObjects_P1(WebDriver driver) {
 		super(driver);
@@ -103,6 +109,22 @@ public class TC_01_ALGT_HomeObjects_P1 extends BasePage {
 		}
 		reqDates.get(0).click();
 	}
+	
+	public void returnDate() throws Exception {
+		List<WebElement> reqDates = new ArrayList<WebElement>();
+		for (WebElement availDates : availableDatesForBothMonths) {
+			String d = availDates.getText();
+			String b = availDates.getAttribute("disabled");
+			String c = availDates.getAttribute("aria-hidden");
+			if (b == null) {
+				if (d.isEmpty() == false) {
+					reqDates.add(availDates);
+				}
+			}
+		}
+		Thread.sleep(1000);
+		reqDates.get(reqDates.size()-1).click();
+	}
 
 	public void clickTravellersField() {
 		new CommonActions().explicitWait(travellersField, "Travellers Field");
@@ -117,5 +139,10 @@ public class TC_01_ALGT_HomeObjects_P1 extends BasePage {
 	public void clickSearchButton() {
 		new CommonActions().explicitWait(searchButton, "Search Button");
 		new CommonActions().doClick(searchButton, "Search Button", searchButton);
+	}
+	
+	public void clickSecondPopUp() throws Exception {
+		new CommonActions().explicitWait(popUpOuter, "Pop Up Outer");
+		new CommonActions().doClick(secondPopUp, "Second Pop Up", secondPopUp);
 	}
 }

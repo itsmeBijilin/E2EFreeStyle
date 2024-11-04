@@ -49,6 +49,31 @@ public class TC_04_ALGT_TravellersPage_P4 extends BasePage {
 
 	@FindBy(xpath = "//*[@class='Button__StyledButton-sc-1ececxa-1 jGMNve PageFooter__ContinueButton-sc-12arybe-1 hsqGDw']")
 	private WebElement travellersContinueBtn;
+	
+	/* Traveler Two */
+	@FindBy(xpath = "//*[@data-hook='traveler_1']//input[@id='adults.1.first-name']")
+	private WebElement travellerTwoName;
+	
+	@FindBy(xpath = "//*[@data-hook='traveler_1']//input[@id='adults.1.last-name']")
+	private WebElement travellerTwoLastName;
+	
+	@FindBy(xpath = "(//*[text()='Male'])[2]")
+	private WebElement travellerTwoGender;
+	
+	@FindBy(xpath = "(//*[text()='Month'])[2]")
+	private WebElement travellerTwoMonth;
+	
+	@FindBy(xpath = "(//*[text()='Day'])[2]")
+	private WebElement travellerTwodayDropDown;
+	
+	@FindBy(xpath = "(//*[@placeholder='Year'])[2]")
+	private WebElement travelerTwoyearFieldBox;
+	
+	@FindBy(name = "adults.1.primary-phone-number")
+	private WebElement travellerTwoMobileNumberField;
+	
+	@FindBy(name="adults.1.email")
+	private WebElement travllerTwoEmailField;
 
 	public TC_04_ALGT_TravellersPage_P4(WebDriver driver) {
 		super(driver);
@@ -81,7 +106,7 @@ public class TC_04_ALGT_TravellersPage_P4 extends BasePage {
 
 	}
 
-	public void selectMonth() throws Exception {
+	public void selectMonth(String input) throws Exception {
 		new CommonActions().explicitWait(dateofMonthDropdown, "Date of Month Dropdown");
 		new CommonActions().doClick(dateofMonthDropdown, "Date of Month Dropdown", dateofMonthDropdown);
 		Thread.sleep(2000);
@@ -89,20 +114,20 @@ public class TC_04_ALGT_TravellersPage_P4 extends BasePage {
 		for (WebElement webElement : allMonths) {
 			String getTxt = webElement.getText();
 			// System.out.println(getTxt);
-			if (getTxt.equalsIgnoreCase(new CommonActions().getUserProperties("month"))) {
+			if (getTxt.equalsIgnoreCase(input)) {
 				webElement.click();
 				break;
 			}
 		}
 	}
 
-	public void selectDay() throws Exception {
+	public void selectDay(String input) throws Exception {
 		new CommonActions().doClick(dayDropDown, "Day Drop Down", dayDropDown);
 		Thread.sleep(2000);
 		// List<WebElement> daysAvail = new ArrayList<>();
 		for (WebElement webElement : allDays) {
 			String getTxt = webElement.getText();
-			if (getTxt.equalsIgnoreCase(new CommonActions().getUserProperties("date"))) {
+			if (getTxt.equalsIgnoreCase(input)) {
 				webElement.click();
 				break;
 			}
@@ -126,4 +151,36 @@ public class TC_04_ALGT_TravellersPage_P4 extends BasePage {
 		new CommonActions().explicitWait(travellersContinueBtn, "Travellers Continue Button");
 		new CommonActions().doClick(travellersContinueBtn, "Travellers Continue Button", travellersContinueBtn);
 	}
+	
+	public void enterTravelerTwofirstName() throws Exception {
+		new CommonActions().explicitWait(travellerTwoName, "Traveller two first name");
+		new CommonActions().doSendKeys(travellerTwoName, new CommonActions().getUserProperties("T2firstName"));
+	}
+	
+	public void enterTravelerTwoLastName() throws Exception {
+		new CommonActions().explicitWait(travellerTwoLastName, "Traveller two Last name");
+		new CommonActions().doSendKeys(travellerTwoLastName, new CommonActions().getUserProperties("T2lastName"));
+	}
+	
+	public void selectingGender() throws Exception {
+		new CommonActions().explicitWait(travellerTwoGender, "Traveller Two Gender");
+		Thread.sleep(2000);
+		new CommonActions().doClick(travellerTwoGender, "Gender Selection", travellerTwoGender);
+	}
+	
+	public void enterTravelerTwoYear() throws Exception {
+		new CommonActions().explicitWait(travelerTwoyearFieldBox, "Traveler Two year Field Box");
+		new CommonActions().doSendKeys(travelerTwoyearFieldBox, new CommonActions().getUserProperties("T2year"));
+	}
+	
+	public void enterTravelerTwoMobNumber() throws Exception {
+		new CommonActions().explicitWait(travellerTwoMobileNumberField, "Traveler Two Mobile Number Field Box");
+		new CommonActions().doSendKeys(travellerTwoMobileNumberField, new CommonActions().getUserProperties("T2mobileNumber"));
+	}
+	
+	public void enterTravelerTwoEmail() throws Exception {
+		new CommonActions().explicitWait(travllerTwoEmailField, "Traveler Two Email Field Box");
+		new CommonActions().doSendKeys(travllerTwoEmailField, new CommonActions().getUserProperties("T2email"));
+	}
+	
 }

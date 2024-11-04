@@ -41,7 +41,7 @@ public class TC_03_ALGT_BundlesPage_P3 extends BasePage {
 		int num = new CommonActions().getRandomNumbers(0, availableBundles.size());
 		// System.out.println("**" + num);
 		availableBundles.get(1).click();
-		BaseClass.logger.info("Bonus Bundle is selected");
+		BaseClass.logger.info("Allegiant Bonus Bundle is selected");
 	}
 
 	public void clickBundleContinueBtn() {

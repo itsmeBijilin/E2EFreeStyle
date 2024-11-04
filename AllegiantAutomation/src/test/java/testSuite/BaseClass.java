@@ -10,10 +10,16 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.CapabilityType;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+
+import com.aventstack.extentreports.Status;
+
+import utilities.ExtendReports;
 
 public class BaseClass {
 	public static Logger logger; // log4j
@@ -28,12 +34,28 @@ public class BaseClass {
 		return url;
 	}
 	
+	public void reportsLogs(String input,String log) throws Exception {
+		ExtendReports.test=ExtendReports.extent.createTest(input);
+		Status status=ExtendReports.test.getStatus();
+		String stat=status.toString();
+		if(stat.equals("Pass")) {
+			ExtendReports.test.log(Status.PASS, log);
+		}
+		else if(stat.equals("Fail")) {
+			ExtendReports.test.log(Status.FAIL, log);
+		}
+	}
+	
 	@BeforeClass
 	public void beforeClass() throws Exception {
 		logger=LogManager.getLogger(this.getClass());
 		
+		
+		ChromeOptions capability = new ChromeOptions();
+		capability.setAcceptInsecureCerts(true);
+		
 		if(getUserProperties("browser").equalsIgnoreCase("chrome")) {
-			driver=new ChromeDriver();
+			driver=new ChromeDriver(capability);
 		}
 		else if(getUserProperties("browser").equalsIgnoreCase("firefox")) {
 			driver=new FirefoxDriver();
@@ -41,6 +63,7 @@ public class BaseClass {
 		else if(getUserProperties("browser").equalsIgnoreCase("Edge")) {
 			driver=new EdgeDriver();
 		}
+		
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
