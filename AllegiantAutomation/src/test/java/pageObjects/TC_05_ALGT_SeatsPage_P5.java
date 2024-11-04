@@ -51,43 +51,50 @@ public class TC_05_ALGT_SeatsPage_P5 extends BasePage {
 	}
 
 	public void seatSelection() throws Exception {
-		int seatCount = availEconomySeats.size() + availlegRoomSeats.size();
-		System.out.println(seatCount);
+		try {
+			int seatCount = availEconomySeats.size() + availlegRoomSeats.size();
+			System.out.println(seatCount);
 
-//		int index = new CommonActions().randomRangeRandom(0, availEconomySeats.size());
-//		int index1 = new CommonActions().getRandomNumbers(1, availlegRoomSeats.size());
-		
-		int index = new CommonActions().randomRangeRandom(0, economySeats.size());
-		int index1 = new CommonActions().getRandomNumbers(1, economySeats.size());
+//			int index = new CommonActions().randomRangeRandom(0, availEconomySeats.size());
+//			int index1 = new CommonActions().getRandomNumbers(1, availlegRoomSeats.size());
+			
+			int index = new CommonActions().randomRangeRandom(0, economySeats.size());
+			int index1 = new CommonActions().getRandomNumbers(1, economySeats.size());
 
-		Thread.sleep(2000);
+			Thread.sleep(2000);
 
-		if (bundleTxt.getText().contains("Allegiant Bonus bundle")) {
-			Thread.sleep(2000);
-			System.out.println("*********INside Bonus Bundle*********");
-			//availlegRoomSeats.get(index1).click();
-			economySeats.get(index1).click();
-			Thread.sleep(2000);
-			new CommonActions().explicitWait(bonusContinue, "bonusContinue");
-			new CommonActions().doClick(bonusContinue, "Seats Continue Button", bonusContinue);		
-		} else if (bundleTxt.getText().contains("Allegiant Total bundle")) {
-			Thread.sleep(2000);
-			//availlegRoomSeats.get(index1).click();
-			economySeats.get(index1).click();
-			new CommonActions().explicitWait(seatsContinueBtn, "Seats Continue Button");
-			Thread.sleep(2000);
-			new CommonActions().doClick(seatsContinueBtn, "Seats Continue Button", seatsContinueBtn);
-		} else if (!bundleTxt.getText().contains("Allegiant")) {
-			if (availEconomySeats.size() != 0) {
-				availEconomySeats.get(index).click();
+			if (bundleTxt.getText().contains("Allegiant Bonus bundle")) {
+				Thread.sleep(2000);
+				System.out.println("*********INside Bonus Bundle*********");
+				//availlegRoomSeats.get(index1).click();
+				economySeats.get(index1).click();
+				Thread.sleep(1000);
+				economySeats.get(new CommonActions().getRandomNumbers(1, economySeats.size())).click();
+				Thread.sleep(1000);
+				new CommonActions().explicitWait(bonusContinue, "bonusContinue");
+				new CommonActions().doClick(bonusContinue, "Seats Continue Button", bonusContinue);		
+			} else if (bundleTxt.getText().contains("Allegiant Total bundle")) {
+				Thread.sleep(2000);
+				//availlegRoomSeats.get(index1).click();
+				economySeats.get(index1).click();
 				new CommonActions().explicitWait(seatsContinueBtn, "Seats Continue Button");
+				Thread.sleep(2000);
 				new CommonActions().doClick(seatsContinueBtn, "Seats Continue Button", seatsContinueBtn);
-			} else {
-				availlegRoomSeats.get(index1).click();
-				new CommonActions().explicitWait(seatsContinueBtn, "Seats Continue Button");
-				new CommonActions().doClick(seatsContinueBtn, "Seats Continue Button", seatsContinueBtn);
+			} else if (!bundleTxt.getText().contains("Allegiant")) {
+				if (availEconomySeats.size() != 0) {
+					availEconomySeats.get(index).click();
+					new CommonActions().explicitWait(seatsContinueBtn, "Seats Continue Button");
+					new CommonActions().doClick(seatsContinueBtn, "Seats Continue Button", seatsContinueBtn);
+				} else {
+					availlegRoomSeats.get(index1).click();
+					new CommonActions().explicitWait(seatsContinueBtn, "Seats Continue Button");
+					new CommonActions().doClick(seatsContinueBtn, "Seats Continue Button", seatsContinueBtn);
+				}
 			}
+		} catch (Exception e) {
+			// TODO: handle exception
 		}
+		
 	}
 
 	public void clickSeatContinueBtn() throws Exception {
@@ -97,46 +104,54 @@ public class TC_05_ALGT_SeatsPage_P5 extends BasePage {
 	}
 	
 	public void seatSelectionReturn() throws Exception {
-		
-		new CommonActions().explicitWait(chooseReturningSeats, "Choose Returning Seats");
-		
-		int seatCount = availEconomySeats.size() + availlegRoomSeats.size();
-		System.out.println(seatCount);
+		try {
+			new CommonActions().explicitWait(chooseReturningSeats, "Choose Returning Seats");
+			
+			int seatCount = availEconomySeats.size() + availlegRoomSeats.size();
+			System.out.println(seatCount);
 
-//		int index = new CommonActions().randomRangeRandom(0, availEconomySeats.size());
-//		int index1 = new CommonActions().getRandomNumbers(1, availlegRoomSeats.size());
-		
-		int index = new CommonActions().randomRangeRandom(0, economySeats.size());
-		int index1 = new CommonActions().getRandomNumbers(1, economySeats.size());
+//			int index = new CommonActions().randomRangeRandom(0, availEconomySeats.size());
+//			int index1 = new CommonActions().getRandomNumbers(1, availlegRoomSeats.size());
+			
+			int index = new CommonActions().randomRangeRandom(0, economySeats.size());
+			int index1 = new CommonActions().getRandomNumbers(1, economySeats.size());
 
-		Thread.sleep(2000);
+			Thread.sleep(2000);
 
-		if (bundleTxt.getText().contains("Allegiant Bonus bundle")) {
-			Thread.sleep(2000);
-			//availlegRoomSeats.get(index1).click();
-			economySeats.get(index1).click();
-			Thread.sleep(2000);
-//			new CommonActions().explicitWait(bonusContinue, "bonusContinue");
-//			new CommonActions().doClick(bonusContinue, "Seats Continue Button", bonusContinue);
-			new CommonActions().explicitWait(returnSeatContinue, "Return Seat Continue Button");
-			new CommonActions().doClick(returnSeatContinue, "Return Seat Continue", returnSeatContinue);
-		} else if (bundleTxt.getText().contains("Allegiant Total bundle")) {
-			Thread.sleep(2000);
-			//availlegRoomSeats.get(index1).click();
-			economySeats.get(index1).click();
-			new CommonActions().explicitWait(seatsContinueBtn, "Seats Continue Button");
-			Thread.sleep(2000);
-			new CommonActions().doClick(seatsContinueBtn, "Seats Continue Button", seatsContinueBtn);
-		} else if (!bundleTxt.getText().contains("Allegiant")) {
-			if (availEconomySeats.size() != 0) {
-				availEconomySeats.get(index).click();
+			if (bundleTxt.getText().contains("Allegiant Bonus bundle")) {
+				Thread.sleep(2000);
+				//availlegRoomSeats.get(index1).click();
+				economySeats.get(0).click();
+				Thread.sleep(1000);
+				economySeats.get(1).click();
+				Thread.sleep(1000);
+				new CommonActions().explicitWait(bonusContinue, "bonusContinue");
+				new CommonActions().doClick(bonusContinue, "Seats Continue Button", bonusContinue);
+//				new CommonActions().explicitWait(returnSeatContinue, "Return Seat Continue Button");
+//				new CommonActions().doClick(returnSeatContinue, "Return Seat Continue", returnSeatContinue);
+			} else if (bundleTxt.getText().contains("Allegiant Total bundle")) {
+				Thread.sleep(2000);
+				//availlegRoomSeats.get(index1).click();
+				economySeats.get(index1).click();
 				new CommonActions().explicitWait(seatsContinueBtn, "Seats Continue Button");
+				Thread.sleep(2000);
 				new CommonActions().doClick(seatsContinueBtn, "Seats Continue Button", seatsContinueBtn);
-			} else {
-				availlegRoomSeats.get(index1).click();
-				new CommonActions().explicitWait(seatsContinueBtn, "Seats Continue Button");
-				new CommonActions().doClick(seatsContinueBtn, "Seats Continue Button", seatsContinueBtn);
+			} else if (!bundleTxt.getText().contains("Allegiant")) {
+				if (availEconomySeats.size() != 0) {
+					availEconomySeats.get(index).click();
+					new CommonActions().explicitWait(seatsContinueBtn, "Seats Continue Button");
+					new CommonActions().doClick(seatsContinueBtn, "Seats Continue Button", seatsContinueBtn);
+				} else {
+					availlegRoomSeats.get(index1).click();
+					new CommonActions().explicitWait(seatsContinueBtn, "Seats Continue Button");
+					new CommonActions().doClick(seatsContinueBtn, "Seats Continue Button", seatsContinueBtn);
+				}
 			}
+		
+		} catch (Exception e) {
+
 		}
+		
+		
 	}
 }

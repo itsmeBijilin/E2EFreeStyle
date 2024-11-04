@@ -134,19 +134,20 @@ public class AllegiantSuite extends BaseClass {
 		BaseClass.logger.info("************ Bags Page ***************");
 		new TC_06_ALGT_Bags_P6(driver).bagsTxtValidation();
 		new TC_06_ALGT_Bags_P6(driver).clickIncrementCarryOnBag();
-		new TC_06_ALGT_Bags_P6(driver).clickIncrementCarryOnBag();
-		new TC_06_ALGT_Bags_P6(driver).addCheckedBags();
+		new TC_06_ALGT_Bags_P6(driver).travellerTwoClickIncrementCarryOnBag();
+		//new TC_06_ALGT_Bags_P6(driver).addCheckedBags();
 		new TC_06_ALGT_Bags_P6(driver).clickBagPageContinue();
 		//new BaseClass().reportsLogs(getUserProperties("testName5"), "End of Bags page");
 		
 		BaseClass.logger.info("************ Cars Page  ***************");
 		new TC_08_ALGT_Cars_P8(driver).carTxtValidation();
 		new TC_08_ALGT_Cars_P8(driver).selectCars();
-		new TC_08_ALGT_Cars_P8(driver).clickCarContinueButton();
+		//new TC_08_ALGT_Cars_P8(driver).clickCarContinueButton();
 		//new BaseClass().reportsLogs(getUserProperties("testName6"), "End of cars page");
 	
 		BaseClass.logger.info("************ Payment pop up page ***************");
 		new TC_09_ALGT_PaymentPopUp(driver).closePaymentPopUp();
+		Thread.sleep(2000);
 		//new BaseClass().reportsLogs(getUserProperties("testName7"), "Closed payment popup");
 	}
 }

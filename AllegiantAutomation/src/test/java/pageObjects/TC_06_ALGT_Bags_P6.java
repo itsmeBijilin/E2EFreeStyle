@@ -19,6 +19,9 @@ public class TC_06_ALGT_Bags_P6 extends BasePage {
 	
 	@FindBy(xpath = "//*[@data-hook='ancillaries-page-traveler_0_carry-on_increment']")
 	private WebElement carryOnIncrementBtn;
+	
+	@FindBy(xpath = "//*[@data-hook='ancillaries-page-traveler_1_carry-on_increment']")
+	private WebElement travellerTwoCarryOnIncrement;
 
 	public TC_06_ALGT_Bags_P6(WebDriver driver) {
 		super(driver);
@@ -41,7 +44,16 @@ public class TC_06_ALGT_Bags_P6 extends BasePage {
 	}
 	
 	public void clickIncrementCarryOnBag() {
-		new CommonActions().explicitWait(carryOnIncrementBtn, "Carry On Increment Button");
-		new CommonActions().doClick(carryOnIncrementBtn, "Carry On Increment Button", carryOnIncrementBtn);
+		for(int i=0;i<1;i++) {
+			new CommonActions().explicitWait(carryOnIncrementBtn, "Carry On Increment Button");
+			new CommonActions().doClick(carryOnIncrementBtn, "Carry On Increment Button", carryOnIncrementBtn);
+		}
+	}
+	
+	public void travellerTwoClickIncrementCarryOnBag() {
+		for(int i=0;i<1;i++) {
+			new CommonActions().explicitWait(travellerTwoCarryOnIncrement, "Traveller Two Carry On Increment");
+			new CommonActions().doClick(travellerTwoCarryOnIncrement, "Traveller Two Carry On Increment", travellerTwoCarryOnIncrement);
+		}
 	}
 }

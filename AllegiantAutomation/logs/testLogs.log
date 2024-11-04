@@ -1,86 +1,94 @@
-[INFO ] 2024-10-10 11:20:05.697 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.698 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.705 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.705 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.706 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.706 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.706 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.706 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.706 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.722 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
-[INFO ] 2024-10-10 11:20:05.723 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.723 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.723 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.723 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.731 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.731 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.731 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.731 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.731 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.731 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.739 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.739 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.739 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.739 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.739 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.739 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.739 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.739 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.739 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.739 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-10-10 11:20:05.751 [main] Utils - [TestNG] Running:
-  C:\Users\broy\AppData\Local\Temp\testng-eclipse--1884542590\testng-customsuite.xml
+[INFO ] 2024-11-04 11:15:33.789 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2024-11-04 11:15:33.794 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2024-11-04 11:15:33.796 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.796 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.796 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.796 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.797 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.797 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.800 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+[INFO ] 2024-11-04 11:15:33.811 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
+[INFO ] 2024-11-04 11:15:33.812 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.812 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.813 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.813 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.813 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.813 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.821 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.822 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.822 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.822 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.824 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.825 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.825 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.825 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.826 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.827 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.828 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.828 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.828 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.828 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-11-04 11:15:33.835 [main] Utils - [TestNG] Running:
+  C:\Users\broy\AppData\Local\Temp\testng-eclipse-1864832459\testng-customsuite.xml
 
-[INFO ] 2024-10-10 11:20:05.763 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 0 ms.
-[INFO ] 2024-10-10 11:20:09.981 [main] AllegiantSuite - ************ Execution Started ***************
-[INFO ] 2024-10-10 11:20:18.160 [main] AllegiantSuite - Cookie Pop up is clicked
-[INFO ] 2024-10-10 11:20:20.111 [main] AllegiantSuite - popUpcloseIcon is clicked
-[INFO ] 2024-10-10 11:20:20.111 [main] AllegiantSuite - ************ Home Page ***************
-[INFO ] 2024-10-10 11:20:20.217 [main] AllegiantSuite - flightOriginSearch is clicked
-[INFO ] 2024-10-10 11:20:22.502 [main] AllegiantSuite - (ABE) is passed in origin field
-[INFO ] 2024-10-10 11:20:22.595 [main] AllegiantSuite - destination Origin Search is clicked
-[INFO ] 2024-10-10 11:20:24.900 [main] AllegiantSuite - (SFB) is passed in destination field
-[INFO ] 2024-10-10 11:20:28.787 [main] AllegiantSuite - popUpcloseIcon is clicked
-[INFO ] 2024-10-10 11:20:31.091 [main] AllegiantSuite - departureDateField is clicked
-[INFO ] 2024-10-10 11:20:40.548 [main] AllegiantSuite - Travellers Field is clicked
-[INFO ] 2024-10-10 11:20:41.285 [main] AllegiantSuite - Adult Increment Button is clicked
-[INFO ] 2024-10-10 11:20:43.263 [main] AllegiantSuite - Search Button is clicked
-[INFO ] 2024-10-10 11:20:43.263 [main] AllegiantSuite - ************ Flights Page ***************
-[INFO ] 2024-10-10 11:20:46.757 [main] AllegiantSuite - flights Continue Button is clicked
-[INFO ] 2024-10-10 11:20:46.757 [main] AllegiantSuite - ************ Bundles Page ***************
-[INFO ] 2024-10-10 11:20:48.878 [main] AllegiantSuite - Validated, In Bundles page
-[INFO ] 2024-10-10 11:20:52.110 [main] AllegiantSuite - Allegiant Bonus Bundle is selected
-[INFO ] 2024-10-10 11:20:52.374 [main] AllegiantSuite - Bundle Continue Button is clicked
-[INFO ] 2024-10-10 11:20:52.374 [main] AllegiantSuite - ************ Travelers page ***************
-[INFO ] 2024-10-10 11:20:54.535 [main] AllegiantSuite - Validated, In Traveler page
-[INFO ] 2024-10-10 11:21:01.402 [main] AllegiantSuite - First Name Text Box is clicked
-[INFO ] 2024-10-10 11:21:01.535 [main] AllegiantSuite - QAis passed into the field
-[INFO ] 2024-10-10 11:21:02.845 [main] AllegiantSuite - Last Name Text Box is clicked
-[INFO ] 2024-10-10 11:21:03.000 [main] AllegiantSuite - Automationis passed into the field
-[INFO ] 2024-10-10 11:21:03.247 [main] AllegiantSuite - male gender Radio Box is clicked
-[INFO ] 2024-10-10 11:21:03.521 [main] AllegiantSuite - Date of Month Dropdown is clicked
-[INFO ] 2024-10-10 11:21:05.944 [main] AllegiantSuite - Day Drop Down is clicked
-[INFO ] 2024-10-10 11:21:08.643 [main] AllegiantSuite - 1995is passed into the field
-[INFO ] 2024-10-10 11:21:08.929 [main] AllegiantSuite - 987-654-32123456is passed into the field
-[INFO ] 2024-10-10 11:21:09.193 [main] AllegiantSuite - accept@fraudtest.comis passed into the field
-[INFO ] 2024-10-10 11:21:09.484 [main] AllegiantSuite - QAis passed into the field
-[INFO ] 2024-10-10 11:21:09.863 [main] AllegiantSuite - Testeris passed into the field
-[INFO ] 2024-10-10 11:21:12.167 [main] AllegiantSuite - Gender Selection is clicked
-[INFO ] 2024-10-10 11:21:12.465 [main] AllegiantSuite - Date of Month Dropdown is clicked
-[INFO ] 2024-10-10 11:21:14.779 [main] AllegiantSuite - Day Drop Down is clicked
-[INFO ] 2024-10-10 11:21:17.561 [main] AllegiantSuite - 1996is passed into the field
-[INFO ] 2024-10-10 11:21:17.986 [main] AllegiantSuite - 987-654-32123456is passed into the field
-[INFO ] 2024-10-10 11:21:18.313 [main] AllegiantSuite - accept@fraudtest.comis passed into the field
-[INFO ] 2024-10-10 11:21:18.751 [main] AllegiantSuite - Travellers Continue Button is clicked
-[INFO ] 2024-10-10 11:21:18.754 [main] AllegiantSuite - ************ Seats Page***************
-[INFO ] 2024-10-10 11:21:24.883 [main] AllegiantSuite - Validated, In Seats page
-[INFO ] 2024-10-10 11:21:31.627 [main] AllegiantSuite - Seats Continue Button is clicked
-[INFO ] 2024-10-10 11:21:41.393 [main] AllegiantSuite - Return Seat Continue is clicked
-[INFO ] 2024-10-10 11:21:43.404 [main] AllegiantSuite - ************ Bags Page ***************
-[INFO ] 2024-10-10 11:22:25.524 [main] AllegiantSuite - Session Terminated
-[INFO ] 2024-10-10 11:22:25.747 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@6cc56b32: 128 ms
-[INFO ] 2024-10-10 11:22:25.779 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@2db461b5: 32 ms
-[INFO ] 2024-10-10 11:22:25.795 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@1dfcf85a: 16 ms
-[INFO ] 2024-10-10 11:22:25.811 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4b50c21: 16 ms
-[INFO ] 2024-10-10 11:22:25.826 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@151a6598: 15 ms
-[INFO ] 2024-10-10 11:22:25.826 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6fa3def8: 0 ms
+[INFO ] 2024-11-04 11:15:33.854 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+[INFO ] 2024-11-04 11:15:42.555 [main] AllegiantSuite - ************ Execution Started ***************
+[INFO ] 2024-11-04 11:15:42.755 [main] AllegiantSuite - Cookie Pop up is clicked
+[INFO ] 2024-11-04 11:15:44.724 [main] AllegiantSuite - popUpcloseIcon is clicked
+[INFO ] 2024-11-04 11:15:44.724 [main] AllegiantSuite - ************ Home Page ***************
+[INFO ] 2024-11-04 11:15:45.396 [main] AllegiantSuite - flightOriginSearch is clicked
+[INFO ] 2024-11-04 11:15:47.582 [main] AllegiantSuite - (ABE) is passed in origin field
+[INFO ] 2024-11-04 11:15:47.644 [main] AllegiantSuite - destination Origin Search is clicked
+[INFO ] 2024-11-04 11:15:49.827 [main] AllegiantSuite - (SFB) is passed in destination field
+[INFO ] 2024-11-04 11:15:51.462 [main] AllegiantSuite - popUpcloseIcon is clicked
+[INFO ] 2024-11-04 11:15:53.639 [main] AllegiantSuite - departureDateField is clicked
+[INFO ] 2024-11-04 11:15:58.553 [main] AllegiantSuite - Travellers Field is clicked
+[INFO ] 2024-11-04 11:15:59.214 [main] AllegiantSuite - Adult Increment Button is clicked
+[INFO ] 2024-11-04 11:16:05.498 [main] AllegiantSuite - Search Button is clicked
+[INFO ] 2024-11-04 11:16:05.499 [main] AllegiantSuite - ************ Flights Page ***************
+[INFO ] 2024-11-04 11:16:10.312 [main] AllegiantSuite - flights Continue Button is clicked
+[INFO ] 2024-11-04 11:16:10.312 [main] AllegiantSuite - ************ Bundles Page ***************
+[INFO ] 2024-11-04 11:16:12.380 [main] AllegiantSuite - Validated, In Bundles page
+[INFO ] 2024-11-04 11:16:24.681 [main] AllegiantSuite - Allegiant Bonus Bundle is selected
+[INFO ] 2024-11-04 11:16:24.853 [main] AllegiantSuite - Bundle Continue Button is clicked
+[INFO ] 2024-11-04 11:16:24.854 [main] AllegiantSuite - ************ Travelers page ***************
+[INFO ] 2024-11-04 11:16:26.930 [main] AllegiantSuite - Validated, In Traveler page
+[INFO ] 2024-11-04 11:16:41.877 [main] AllegiantSuite - First Name Text Box is clicked
+[INFO ] 2024-11-04 11:16:41.927 [main] AllegiantSuite - QAis passed into the field
+[INFO ] 2024-11-04 11:16:43.098 [main] AllegiantSuite - Last Name Text Box is clicked
+[INFO ] 2024-11-04 11:16:43.191 [main] AllegiantSuite - Automationis passed into the field
+[INFO ] 2024-11-04 11:16:43.322 [main] AllegiantSuite - male gender Radio Box is clicked
+[INFO ] 2024-11-04 11:16:43.457 [main] AllegiantSuite - Date of Month Dropdown is clicked
+[INFO ] 2024-11-04 11:16:45.708 [main] AllegiantSuite - Day Drop Down is clicked
+[INFO ] 2024-11-04 11:16:48.065 [main] AllegiantSuite - 1995is passed into the field
+[INFO ] 2024-11-04 11:16:48.259 [main] AllegiantSuite - 987-654-32123456is passed into the field
+[INFO ] 2024-11-04 11:16:48.424 [main] AllegiantSuite - accept@fraudtest.comis passed into the field
+[INFO ] 2024-11-04 11:16:48.549 [main] AllegiantSuite - QAis passed into the field
+[INFO ] 2024-11-04 11:16:48.703 [main] AllegiantSuite - Testeris passed into the field
+[INFO ] 2024-11-04 11:16:50.858 [main] AllegiantSuite - Gender Selection is clicked
+[INFO ] 2024-11-04 11:16:50.991 [main] AllegiantSuite - Date of Month Dropdown is clicked
+[INFO ] 2024-11-04 11:16:53.237 [main] AllegiantSuite - Day Drop Down is clicked
+[INFO ] 2024-11-04 11:16:55.620 [main] AllegiantSuite - 1996is passed into the field
+[INFO ] 2024-11-04 11:16:55.837 [main] AllegiantSuite - 987-654-32123456is passed into the field
+[INFO ] 2024-11-04 11:16:56.073 [main] AllegiantSuite - accept@fraudtest.comis passed into the field
+[INFO ] 2024-11-04 11:16:56.650 [main] AllegiantSuite - Travellers Continue Button is clicked
+[INFO ] 2024-11-04 11:16:56.653 [main] AllegiantSuite - ************ Seats Page***************
+[INFO ] 2024-11-04 11:17:04.669 [main] AllegiantSuite - Validated, In Seats page
+[INFO ] 2024-11-04 11:17:11.575 [main] AllegiantSuite - Seats Continue Button is clicked
+[INFO ] 2024-11-04 11:17:25.146 [main] AllegiantSuite - Seats Continue Button is clicked
+[INFO ] 2024-11-04 11:17:27.151 [main] AllegiantSuite - ************ Bags Page ***************
+[INFO ] 2024-11-04 11:17:34.719 [main] AllegiantSuite - Validated, In Bags page
+[INFO ] 2024-11-04 11:17:34.873 [main] AllegiantSuite - Carry On Increment Button is clicked
+[INFO ] 2024-11-04 11:17:35.022 [main] AllegiantSuite - Traveller Two Carry On Increment is clicked
+[INFO ] 2024-11-04 11:17:35.169 [main] AllegiantSuite - Bags Page Continue Button is clicked
+[INFO ] 2024-11-04 11:17:35.169 [main] AllegiantSuite - ************ Cars Page  ***************
+[INFO ] 2024-11-04 11:17:55.865 [main] AllegiantSuite - Validated, In Cars page
+[INFO ] 2024-11-04 11:18:18.609 [main] AllegiantSuite - ************ Payment pop up page ***************
+[INFO ] 2024-11-04 11:18:18.739 [main] AllegiantSuite - Close Payment Popup is clicked
+[INFO ] 2024-11-04 11:18:22.120 [main] AllegiantSuite - Session Terminated
+[INFO ] 2024-11-04 11:18:22.231 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@397a10df: 80 ms
+[INFO ] 2024-11-04 11:18:22.231 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@39a865c1: 0 ms
+[INFO ] 2024-11-04 11:18:22.247 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@2ef913a4: 16 ms
+[INFO ] 2024-11-04 11:18:22.247 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@7ac1b6c0: 0 ms
+[INFO ] 2024-11-04 11:18:22.262 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@68c4a860: 15 ms
+[INFO ] 2024-11-04 11:18:22.262 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@570ed9c: 0 ms
